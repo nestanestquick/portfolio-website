@@ -230,7 +230,7 @@ input, select, textarea {
 					padding-top: 0em;
 				}
 
-		.row.gtr-25 {
+		/* What does em mean?*/.row.gtr-25 {
 			margin-top: -0.3125em;
 			margin-left: -0.3125em;
 		}
@@ -324,11 +324,11 @@ input, select, textarea {
 				align-items: stretch;
 			}
 
-				.row > * {
+				/* repeat border box? what is the meaning of the * ? */.row > * {
 					box-sizing: border-box;
 				}
 
-				.row.gtr-uniform > * > :last-child {
+				/* what does > * > mean? */ .row.gtr-uniform > * > :last-child {
 					margin-bottom: 0;
 				}
 
